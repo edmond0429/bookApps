@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <androidx.cardview.widget.CardView
+    app:cardElevation="6dp" android:id="@+id/book_Cardview"
+    android:layout_margin="10dp" app:cardCornerRadius="20dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_height="200dp" android:layout_width="280dp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <RelativeLayout
+        android:id="@+id/background_color"
+        android:layout_height="match_parent"
+        android:layout_width="280dp"
+        android:padding="5dp"
+        android:background="@drawable/shape_left_panel">
+
+    <ImageView android:id="@+id/book_image"
+        android:layout_height="252dp"
+        android:layout_width="141dp"
+        android:src="@drawable/p1"/>
+
+        <TextView
+            android:id="@+id/book_title"
+            android:layout_width="112dp"
+            android:layout_height="146dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginBottom="25dp"
+            android:layout_marginEnd="10dp"
+            android:layout_marginStart="-6dp"
+            android:text="Pride and Prejudice by Jane Austen"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+
+</RelativeLayout>
+
+</androidx.cardview.widget.CardView>
